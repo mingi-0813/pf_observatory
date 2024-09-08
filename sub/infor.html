@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예약안내 &#124; 밀양아리랑 우주천문대</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/common/favicon.ico.svg" type="image/x-icon">
+
+    <!-- font -->
+    <link rel="stylesheet" href="../css/font.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/subcommon.css">
+    <link rel="stylesheet" href="../css/sub.css">
+
+    <!-- js -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/subcommon.js"></script>
+    <script src="../js/sub.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="inner">
+            <h1><a href="../index.html"><img src="../img/common/logo_w.svg" alt="밀양아리랑 우주천문대"></a></h1>
+            <nav>
+                <ul class="gnb">
+                    <li><a href="observatory.html">천문대소개</a>
+                        <ul class="depth2">
+                            <li><a href="observatory.html#set101">천문대 소개</a></li>
+                            <li><a href="observatory.html#set102">건물 현황</a></li>
+                            <li><a href="observatory.html#set103">플로어 맵</a></li>
+                            <li><a href="observatory.html#set104">오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="facilitice.html">시설 안내</a>
+                        <ul class="depth2">
+                            <li><a href="facilitice.html#set201">체험 시설</a></li>
+                            <li><a href="facilitice.html#set202">천체 투영관</a></li>
+                            <li><a href="facilitice.html#set203">천체 관측실</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="program.html">프로그램</a>
+                        <ul class="depth2">
+                            <li><a href="program.html#set301">천체투영 프로그램</a></li>
+                            <li><a href="program.html#set302">야간 프로그램</a></li>
+                        </ul>
+                    </li>
+                    <li class="on"><a href="infor.html">예약 안내</a>
+                        <ul class="depth2">
+                            <li><a href="infor.html#set401">운영시간</a></li>
+                            <li><a href="infor.html#set402">이용요금</a></li>
+                            <li><a href="infor.html#set403">이용 및 예약안내</a></li>
+                            <li><a
+                                    href="https://yeyak.miryang.go.kr/yeyak/00004/00023.web?amode=view&expId=EX000449&fcd=">예약
+                                    바로가기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="notice.html">알림마당</a>
+                        <ul class="depth2">
+                            <li><a href="notice.html#set501">공지사항</a></li>
+                            <li><a href="notice.html#set502">진행 이벤트</a></li>
+                            <li><a href="notice.html#set503">이 달의 천체</a></li>
+                            <li><a href="notice.html#set504">체험 후기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="help.html">고객지원</a>
+                        <ul class="depth2">
+                            <li><a href="help.html#set601">1:1 문의</a></li>
+                            <li><a href="help.html#set601">QnA</a></li>
+                            <li><a href="help.html#set602">자주하는 질문</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="util">
+                <li class="search_open"><i class="bi bi-search" aria-label="검색창 열기버튼"></i></li>
+                <li class="search_close"><i class="bi bi-x-lg" aria-label="검색창 닫기버튼"></i></li>
+                <li class="sitemap_open"><i class="bi bi-list" aria-label="사이트맵 열기버튼"></i></li>
+                <li class="m_menu_open"><i class="bi bi-list" aria-label="모바일 메뉴 열기버튼"></i></li>
+            </ul>
+        </div>
+        <div class="search">
+            <form action="">
+                <fieldset>
+                    <div>
+                        <input type="text" placeholder="검색어를 입력하세요.">
+                        <input type="submit">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="depth2_bg"></div>
+    </header>
+    <div class="sitemap">
+        <h4>SiteMap</h4>
+        <ul class="site_gnb">
+            <li><a href="observatory.html">천문대소개</a>
+                <ul class="site_depth2">
+                    <li><a href="observatory.html#set101">천문대 소개</a></li>
+                    <li><a href="observatory.html#set102">건물 현황</a></li>
+                    <li><a href="observatory.html#set103">플로어 맵</a></li>
+                    <li><a href="observatory.html#set104">오시는 길</a></li>
+                </ul>
+            </li>
+            <li><a href="facilitice.html">시설 안내</a>
+                <ul class="site_depth2">
+                    <li><a href="facilitice.html#set201">체험 시설</a></li>
+                    <li><a href="facilitice.html#set202">천체 투영관</a></li>
+                    <li><a href="facilitice.html#set203">천체 관측실</a></li>
+                </ul>
+            </li>
+            <li><a href="program.html">프로그램</a>
+                <ul class="site_depth2">
+                    <li><a href="program.html#set301">천체투영 프로그램</a></li>
+                    <li><a href="program.html#set302">야간 프로그램</a></li>
+                </ul>
+            </li>
+            <li><a href="infor.html">예약 안내</a>
+                <ul class="site_depth2">
+                    <li><a href="infor.html#set401">운영시간</a></li>
+                    <li><a href="infor.html#set402">이용요금</a></li>
+                    <li><a href="infor.html#set403">이용 및 예약안내</a></li>
+                    <li><a href="https://yeyak.miryang.go.kr/yeyak/00004/00023.web?amode=view&expId=EX000449&fcd=">예약
+                            바로가기</a></li>
+                </ul>
+            </li>
+            <li><a href="notice.html">알림마당</a>
+                <ul class="site_depth2">
+                    <li><a href="notice.html#set501">공지사항</a></li>
+                    <li><a href="notice.html#set502">이 달의 천체</a></li>
+                    <li><a href="notice.html#set503">체험 후기</a></li>
+                    <li><a href="notice.html#set504">진행 이벤트</a></li>
+                </ul>
+            </li>
+            <li><a href="help.html">고객지원</a>
+                <ul class="site_depth2">
+                    <li><a href="help.html#set601">1:1 문의</a></li>
+                    <li><a href="help.html#set601">QnA</a></li>
+                    <li><a href="help.html#set602">자주하는 질문</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="sitemap_close">
+            <i class="bi bi-x-lg" aria-label="사이트맵 닫기버튼"></i>
+        </div>
+    </div>
+    <div class="m_menu">
+        <h4>밀양아리랑 우주천문대<br><span>MirYang Arirang Observatory</span></h4>
+        <div class="m_menu_close">
+            <i class="bi bi-x-lg" aria-label="모바일 메뉴 닫기버튼"></i>
+        </div>
+        <ul class="mgnb">
+            <li><a href="observatory.html">천문대소개</a>
+                <ul class="mdepth2">
+                    <li><a href="observatory.html#set101">천문대 소개</a></li>
+                    <li><a href="observatory.html#set102">건물 현황</a></li>
+                    <li><a href="observatory.html#set103">플로어 맵</a></li>
+                    <li><a href="observatory.html#set104">오시는 길</a></li>
+                </ul>
+            </li>
+            <li><a href="facilitice.html">시설 안내</a>
+                <ul class="mdepth2">
+                    <li><a href="facilitice.html#set201">체험 시설</a></li>
+                    <li><a href="facilitice.html#set202">천체 투영관</a></li>
+                    <li><a href="facilitice.html#set203">천체 관측실</a></li>
+                </ul>
+            </li>
+            <li><a href="program.html">프로그램</a>
+                <ul class="mdepth2">
+                    <li><a href="program.html#set301">천체투영 프로그램</a></li>
+                    <li><a href="program.html#set302">야간 프로그램</a></li>
+                </ul>
+            </li>
+            <li><a href="infor.html">예약 안내</a>
+                <ul class="mdepth2">
+                    <li><a href="infor.html#set401">운영시간</a></li>
+                    <li><a href="infor.html#set402">이용요금</a></li>
+                    <li><a href="infor.html#set403">이용 및 예약안내</a></li>
+                    <li><a href="https://yeyak.miryang.go.kr/yeyak/00004/00023.web?amode=view&expId=EX000449&fcd=">예약
+                            바로가기</a></li>
+                </ul>
+            </li>
+            <li><a href="notice.html">알림마당</a>
+                <ul class="mdepth2">
+                    <li><a href="notice.html#set501">공지사항</a></li>
+                    <li><a href="notice.html#set502">진행 이벤트</a></li>
+                    <li><a href="notice.html#set503">이 달의 천체</a></li>
+                    <li><a href="notice.html#set504">체험 후기</a></li>
+                </ul>
+            </li>
+            <li><a href="help.html">고객지원</a>
+                <ul class="mdepth2">
+                    <li><a href="help.html#set601">1:1 문의</a></li>
+                    <li><a href="help.html#set601">QnA</a></li>
+                    <li><a href="help.html#set602">자주하는 질문</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="sns">
+            <li><a href="#"><i class="bi bi-facebook" aria-label="페이스북 바로가기"></i></a></li>
+            <li><a href="#"><i class="bi bi-youtube" aria-label="유튜브 바로가기""></i></a></li>
+                    <li><a href=" #"><i class="bi bi-instagram" aria-label="인스타그램 바로가기""></i></a></li>
+                </ul>
+                <ul class=" link">
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">영상정보처리기기&middot;운영관리방침</a></li>
+        </ul>
+    </div>
+
+    <div id="container">
+        <div class="sub_visual">
+            <div class="sub_visual_wrap">
+                <ol class="breadcrumb">
+                    <li><a href="../index.html"><i class="bi bi-house-door"></i></a></li>
+                    <li><a href="#">예약안내</a></li>
+                </ol>
+                <div class="info_guide">
+                    <div class="inner">
+                        <p><span>밀양아리랑 우주천문대 야간 프로그램은 예약 신청을 하신 분들만 입장 가능</span>하며<br>
+                            예약 신청은 밀양 통합예약서비스에서 신청 가능합니다.</p>
+                        <a href="https://yeyak.miryang.go.kr/yeyak/00004/00023.web?amode=view&expId=EX000449&fcd=">예약 신청
+                            바로가기</a>
+                    </div>
+                </div><!-- info_guide -->
+            </div><!-- sub_visual_wrap -->
+        </div><!-- sub_visual -->
+        <div class="info_time">
+            <div class="inner">
+                <div class="time_tit h2hover" id="set401">
+                    <h2>운영시간</h2>
+                </div>
+                <div class="time_box">
+                    <div class="time_day">
+                        <dl>
+                            <dt>주간개관</dt>
+                            <div class="dd_box">
+                                <dd><span>시기</span> : 연중</dd>
+                                <dd><span>관람시간</span> : 오전10시 ~ 오후5시30분</dd>
+                                <dd><span>매표시간</span> : 오전10시 ~ 오후4시30분</dd>
+                            </div>
+                        </dl>
+                        <ul>
+                            <li>평일에는 교육단체 우선으로 진행되므로,교육단체가 예약한 회차 등은 개인이 이용이 불가능합니다.</li>
+                            <li>입장권 미소지시 입장이 불가능하며, 16:30 까지 매표소를 운영하니 천문대 관람에 참고 바랍니다.</li>
+                        </ul>
+                    </div><!-- time_day -->
+                    <div class="time_night">
+                        <dl>
+                            <dt>야간개관</dt>
+                            <div class="dd_box">
+                                <dd><span>시기(하절기)</span> : 4월 ~ 8월</dd>
+                                <dd><span>시작시간</span> : 20:00, 20:30</dd>
+                                <dd><span>시기(동절기)</span> : 9월 ~ 다음 연 3월</dd>
+                                <dd><span>시작시간</span> : 19:00, 19:30</dd>
+                            </div>
+                        </dl>
+                        <ul>
+                            <li>야간 입장은 예약하신 분들만 관람 가능합니다.</li>
+                            <li>매표는 프로그램 시작 30분 전부터 시작합니다.</li>
+                            <li>야간프로그램은 1시간 ~ 1시간 30분 동안 진행됩니다.</li>
+                            <li>프로그램 시작 후 5분 이상 경과 시 매표가 불가능합니다.</li>
+                        </ul>
+                        <ul>
+                            <li><span>천문대 휴관일 : 매주 월요일(공휴일인 경우 다음 날까지 휴관)</span></li>
+                            <li><span>문의 : 055-359-4734</span></li>
+                        </ul>
+                    </div><!-- time_night -->
+                </div><!-- time_box -->
+            </div><!-- inner -->
+        </div><!-- info_time -->
+        <div class="info_sell">
+            <div class="inner">
+                <div class="sell_tit h2hover" id="set402">
+                    <h2>이용요금</h2>
+                    <ul class="sell_tab_btn">
+                        <li class="on">천문대 관람료</li>
+                        <li>프로그램 이용료</li>
+                        <li>인근 시설 통합관람료</li>
+                    </ul>
+                </div>
+                <div class="sell_right">
+                    <ul class="sell_tab_table">
+                        <li class="on">
+                            <h3>천문대 관람료</h3>
+                            <table>
+                                <caption>천문대 관람료</caption>
+                                <tr>
+                                    <th>구분</th>
+                                    <th>개인</th>
+                                    <th>단체</th>
+                                    <th>밀양시민</th>
+                                </tr>
+                                <tr>
+                                    <th>성인</th>
+                                    <td>4,000원</td>
+                                    <td>3,000원</td>
+                                    <td>2,000원</td>
+                                </tr>
+                                <tr>
+                                    <th>학생</th>
+                                    <td>2,000원</td>
+                                    <td>1,500원</td>
+                                    <td>1,000원</td>
+                                </tr>
+                            </table>
+                            <p>천문대만 관람하길 원하는 분들은 천문대 단독 입장권을 이용하시기 바랍니다.</p>
+                            <p>천문대 입장권으로 전시물관람, 태양관측(날씨에 따라 관측이 불가능 할 수 있습니다)을 하실 수 있습니다.</p>
+                        </li>
+                        <li>
+                            <h3>프로그램 관람료</h3>
+                            <table>
+                                <caption>프로그램 관람료</caption>
+                                <tr>
+                                    <th rowspan="2"">구분</th>
+                                <th colspan=" 2">천체투영 프로그램</th>
+                                    <!-- <th></th> -->
+                                    <th colspan="2">야간프로그램</th>
+                                    <!-- <th></th> -->
+                                </tr>
+                                <tr>
+                                    <!-- <th></th> -->
+                                    <th>개인</th>
+                                    <th>밀양시민</th>
+                                    <th>개인</th>
+                                    <th>밀양시민</th>
+                                </tr>
+                                <tr>
+                                    <th>성인</th>
+                                    <td>2,000원</td>
+                                    <td>1,000원</td>
+                                    <td>6,000원</td>
+                                    <td>3,000원</td>
+                                </tr>
+                                <tr>
+                                    <th>학생</th>
+                                    <td>1,000원</td>
+                                    <td>500원</td>
+                                    <td>3,000원</td>
+                                    <td>1,500원</td>
+                                </tr>
+                            </table>
+                            <p>천체투영관은 이용권 이외에도 천문대 입장권 또는 통합입장권을 발권하셔야 합니다.</p>
+                            <p>야간프로그램은 주간 천문대 입장권 및 통합권과 별개로 천문대 내부에서 발권하셔야합니다.</p>
+                            <p>천체투영관 프로그램 시작 3시간 전부터, 야간프로그램은 하절기는 오후7시30분부터, 동절기는 6시30분부터 매표 가능합니다.</p>
+                        </li>
+                        <li>
+                            <h3>인근 시설 통합관람료</h3>
+                            <table>
+                                <caption>인근 시설 통합관람료</caption>
+                                <tr>
+                                    <th rowspan="2"">구분</th>
+                                <th colspan=" 3">통합입장권(천문대+기상과학관)</th>
+                                    <!-- <th></th> -->
+                                    <!-- <th></th> -->
+                                    <th colspan="3">통합입장권(천문대+기상과학관+박물관)</th>
+                                    <!-- <th></th> -->
+                                    <!-- <th></th> -->
+                                </tr>
+                                <tr>
+                                    <!-- <th></th> -->
+                                    <th>개인</th>
+                                    <th>단체</th>
+                                    <th>밀양시민</th>
+                                    <th>개인</th>
+                                    <th>단체</th>
+                                    <th>밀양시민</th>
+                                </tr>
+                                <tr>
+                                    <th>성인</th>
+                                    <td>5,000원</td>
+                                    <td>4,000원</td>
+                                    <td>3,000원</td>
+                                    <td>5,500원</td>
+                                    <td>4,500원</td>
+                                    <td>3,000원</td>
+                                </tr>
+                                <tr>
+                                    <th>학생</th>
+                                    <td>2,000원</td>
+                                    <td>2,000원</td>
+                                    <td>1,500원</td>
+                                    <td>2,300원</td>
+                                    <td>2,300원</td>
+                                    <td>1,500원</td>
+                                </tr>
+                            </table>
+                            <p>밀양아리랑 우주천문대와 인근 시설물(국립밀양기상과학관, 밀양시립박물관)을 함께 이용 시 좀 더 저렴하고 편하게 이용하실 수 있습니다.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sale_target">
+                    <h3>관람료 및 이용료 면제 대상</h3>
+                    <ul class="left_dot">
+                        <li>공무 수행 및 학술연구를 위하여 출입하는 사람</li>
+                        <li>6세 이하의 유아 및 65세 이상 노인</li>
+                        <li>「국가유공자 등 예우 및 지원에 관한 법률」 제4조에 해당하는 사람
+                        </li>
+                        <li>「과학기술유공자 예우 및 지원에 관한 법률」 제7조에 해당하는 사람
+                        </li>
+                        <li>「국민기초생활 보장법」 에 따른 생계·의료급여 수급자
+                        </li>
+                        <li>천문대와 방문을 미리 협의한 교육기관의 인솔자, 부산광역시·울산광역시·경상남도 내 교육기관일 때는 어린이·청소년을 포함
+                        </li>
+                        <li>천문대에 자료·장비를 무상으로 기증한 사람
+                        </li>
+                        <li>관람일에 유효한 회원 자격을 생활한복으로 갖춰 입은 사람
+
+                        </li>
+                        <li>상·하의 모두 전통한복 또는 생활한복으로 갖춰 입은 사람
+                        </li>
+                        <li>「밀양시 병역명문가 예우 및 지원에 관한 조례」에 따른 예우대상자 및 가족
+                        </li>
+                    </ul>
+                    <h3>50% 감면 대상</h3>
+                    <ul class="left_dot">
+                        <li>밀양시민</li>
+                        <li>「밀양시 명예시민증 수여 조례」에 따른 명예시민
+                        </li>
+                        <li>「밀양시 출향인 교류ㆍ협력 및 지원에 관한 조례」제5조에 따라 밀양향우인증을 발급받은 사람
+                        </li>
+                        <li>「밀양시 자원봉사활동 지원 조례」제17조의3제2항에 해당하는 사람
+                        </li>
+                        <li>경제·관광 활성화 및 사회복지·교육·문화·인구 증가 정책 등에 관련된 밀양시 또는 관내 공기업이 주관또는 주최하는 사업의 대상자
+                        </li>
+                        <li>밀양시와 상호 호혜적으로 입장료 감면 등에 관한 협약을 체결한 지역의 시·군·구민 및 명예 시·군·구민
+                        </li>
+                    </ul>
+                </div><!-- sale_target -->
+            </div><!-- inner -->
+        </div><!-- info_sell -->
+        <div class="info_reserve h2hover" id="set403">
+            <div class="inner">
+                <div class="reserve_tit">
+                    <h2>이용 및<br>예약 안내</h2>
+                </div>
+                <div class="reserve_right">
+                    <h3>예약 방법 안내사항</h3>
+                    <ul class="reserve_info left_dot">
+                        <li>예약일: 매주 수요일 오후 2시 (시스템 상태에 따라 지연될 수 있음)</li>
+                        <li>예약범위: 해당 주 토요일 ~ 다음 주 금요일</li>
+                        <li>예약방법: 네이버 예약을 이용 (이용안내 -> 예약바로가기)</li>
+                    </ul>
+                    <div class="swiper reserve_slide">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <img src="../img/sub/sub3_reserve1.jpg" alt="예약방법1">
+                                <dl>
+                                    <dt>01</dt>
+                                    <dd>통합 예약 페이지로 이동 후 밀양아리랑 우주천문대를 선택합니다.</dd>
+                                </dl>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="../img/sub/sub3_reserve2.jpg" alt="예약방법1">
+                                <dl>
+                                    <dt>02</dt>
+                                    <dd>예약 가능한 날자와 시간대를 선택하고 예약 버튼을 누릅니다.</dd>
+                                </dl>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="../img/sub/sub3_reserve3.jpg" alt="예약방법1">
+                                <dl>
+                                    <dt>03</dt>
+                                    <dd>본인이 원하는 방법을 선택하여 본인인증을 진행합니다.</dd>
+                                </dl>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="../img/sub/sub3_reserve4.jpg" alt="예약방법1">
+                                <dl>
+                                    <dt>04</dt>
+                                    <dd>신청자 정보를 알맞게 입력하고 신청 버튼을 누릅니다.</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                    </div><!-- reserve_slide -->
+                </div><!-- reserve_right -->
+            </div><!-- inner -->
+        </div><!-- info_reserve -->
+
+
+    </div><!-- container -->
+
+    <footer id="footer">
+        <div class="footer_wrap">
+            <div class="footer_left">
+                <div class="footer_logo">
+                    <img src="../img/common/footer_logo.svg" alt="밀양아리랑 우주천문대">
+                </div>
+                <address>밀양아리랑 우주천문대 (50420) 경상남도 밀양시 밀양대공원로 86</address>
+                <div class="copy">COPYRIGHT &copy; MIRYANG ARIRANG ASTRONOMICAL OBSERVATORY, ALL RIGHTS
+                    RESERVED.</div>
+            </div><!-- footer_left -->
+            <div class="footer_right">
+                <select name="family_site" id="family_site">
+                    <option value=""><a href="https://www.mycf.or.kr/main/">밀양문화재단</a></option>
+                    <option value=""><a href="https://www.miryang.go.kr/tur/index.do">밀양문화관광</a>
+                    </option>
+                </select>
+                <ul class="footer_sns">
+                    <li><a href="#"><i class="bi bi-facebook" aria-label="페이스북 바로가기"></i></a></li>
+                    <li><a href="#"><i class="bi bi-youtube" aria-label="유튜브 바로가기""></i></a></li>
+                <li><a href=" #"><i class="bi bi-instagram" aria-label="인스타그램 바로가기""></i></a></li>
+            </ul>
+            <ul class=" footer_link">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">영상정보처리기기&middot;운영관리방침</a></li>
+                </ul>
+            </div><!-- footer_right -->
+        </div>
+    </footer>
+</body>
+
+</html>
